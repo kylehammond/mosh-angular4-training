@@ -1,11 +1,20 @@
-// won't give comp error
-let a;
-a = 1;
-a = true;
-a = 'a';
+let a: number; // int or float
+let b: boolean;
+let c: string;
+let d: any;
+let e: number[] = [1, 2, 3];
+let f: any[] = [1, true, 'a', false];
 
-// will give comp error
-let b: number;
-b = 1;
-b = true;
-b = 'a';
+// old js way
+const ColorRed = 0;
+const ColorGreen = 1;
+const ColorBlue = 2;
+
+// ts way
+enum Color {
+    Red = 0,
+    Green = 1,
+    Blue = 2
+};
+
+let backgroundColor = Color.Red;
