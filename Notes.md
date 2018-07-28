@@ -12,7 +12,7 @@ Minimum node needed for Angular - v 6.9
 9. open browser > http://localhost:4200/ > confirm works
 
 
-# project structure
+# Project structure
 e2e - end to end tests (don't worry about yet)
 node_modules - see later in course (bundled stuff)
 
@@ -37,3 +37,19 @@ package.json - every node proj has - dependencies/libs/refs managed here - has o
 protractor.conf.js - e2e tool
 tsconfig.json - settings for ts compiler
 tslint.json - a number of settings for ts - helps perform code analysis on your ts
+
+
+# Angular versions
+AngularJS - 2010 - overly complex
+Angular2 - 2016 - rewritten with TS - basically completely different from AJS
+Angular 3? 
+- a few minor upgrades up to 2.3 happened
+- there are multiple angular libraries (core/compiler/http/router)
+- each library had a 2.3 version except router which was 3.3
+- in order to avoid confusion for the next upgrades they just bumped it all up to 4
+Angular4 - not really a major upgrade - is essentially 2.4
+Now just called Angular (no more numbering)
+
+Now have AngularJS vs Angular2+ or just "Angular"
+
+
