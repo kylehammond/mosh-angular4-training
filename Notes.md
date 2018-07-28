@@ -74,3 +74,5 @@ Use the let keyword rather than var to catch compile time issues
 public < default in TS
 private
 protected
+
+You can add modifier to constructor params to avoid making the backing fields and setting them
