@@ -9,3 +9,4 @@ Minimum node needed for Angular - v 6.9
 6. cd to project folder hello-world
 7. ng serve - serve app to local server
 8. accept windows defender firewall thing
+9. open browser > http://localhost:4200/ > confirm works
