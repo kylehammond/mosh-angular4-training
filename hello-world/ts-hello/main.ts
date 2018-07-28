@@ -1,20 +1,5 @@
-let a: number; // int or float
-let b: boolean;
-let c: string;
-let d: any;
-let e: number[] = [1, 2, 3];
-let f: any[] = [1, true, 'a', false];
-
-// old js way
-const ColorRed = 0;
-const ColorGreen = 1;
-const ColorBlue = 2;
-
-// ts way
-enum Color {
-    Red = 0,
-    Green = 1,
-    Blue = 2
-};
-
-let backgroundColor = Color.Red;
+// if you set a value off the initialization it will set the type, otherwise it's any
+let message;
+message = 'abc';
+let endsWithC = (<string>message.endsWith('c'));  // type assertion
+let alternativeWay = (message as string).endsWith('c');
