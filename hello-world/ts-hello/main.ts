@@ -1,6 +1,6 @@
 class Point {
-    x: number;
-    y: number;
+    private x: number;
+    private y: number;
 
     constructor(x?: number, y?: number) {
         this.x = x;
@@ -18,24 +18,3 @@ class Point {
 
 let point = new Point(1, 2);
 point.draw();
-
-
-// interface Point {
-//     x: number,
-//     y: number
-//     draw: () => void
-// }
-
-// let drawPoint = (point: Point) => {
-//     // ...
-// }
-
-// let getDistance = (pointA: Point, pointB: Point) => {
-//     // ...
-// }
-
-// drawPoint(
-//     {
-//         x: 1,
-//         y: 2
-//     });

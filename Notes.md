@@ -69,3 +69,8 @@ ES2017
 
 # Let
 Use the let keyword rather than var to catch compile time issues
+
+# TS Access modifiers
+public < default in TS
+private
+protected
