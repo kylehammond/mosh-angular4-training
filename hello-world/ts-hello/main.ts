@@ -1,12 +1,11 @@
-var number = 1;
-let count = 2;
+// won't give comp error
+let a;
+a = 1;
+a = true;
+a = 'a';
 
-function doSomething(){
-    for (let i = 0; i < 5; i++) {
-        console.log(i);
-    }
-
-    console.log('Finally: ' + i)
-}
-
-doSomething();
+// will give comp error
+let b: number;
+b = 1;
+b = true;
+b = 'a';
