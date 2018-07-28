@@ -1,16 +1,24 @@
 # Setting up environment
 Minimum node needed for Angular - v 6.9 
 
+## angular 
 1. Install latest Node.js
-2. add "C:\Program Files\nodejs" to path at 'node'
-3. npm install -g @angular/cli
-4. ng --version  to confirm angular cli installed
-5. ng new hello-world  - create angular project
+2. add 'C:\Program Files\nodejs' to path at 'node'
+3. 'npm install -g @angular/cli'
+4. 'ng --version'  to confirm angular cli installed
+5. 'ng new hello-world'  - create angular project
 6. cd to project folder hello-world
-7. ng serve - serve app to local server
+7. 'ng serve' - serve app to local server
 8. accept windows defender firewall thing
 9. open browser > http://localhost:4200/ > confirm works
 
+## typescript
+1. 'npm install -g typescript'
+2. 'tsc --version' - check version
+3. 'mkdir ts-hello' - test folder for section
+4. 'cd ts-hello' - go to that folder
+5. 'code main.ts' - create this file (will be in your folder on save)
+6. 'tsc main.ts' - compile/transpile ts to js file (ng serve calls this, too)
 
 # Project structure
 e2e - end to end tests (don't worry about yet)
@@ -51,5 +59,3 @@ Angular4 - not really a major upgrade - is essentially 2.4
 Now just called Angular (no more numbering)
 
 Now have AngularJS vs Angular2+ or just "Angular"
-
-
