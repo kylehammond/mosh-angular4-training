@@ -1,5 +1,19 @@
-let log = function (message) {
-    console.log(message);
+interface Point {
+    x: number,
+    y: number
+    draw: () => void
 }
 
-let doLog = (message) => console.log(message);
+let drawPoint = (point: Point) => {
+    // ...
+}
+
+let getDistance = (pointA: Point, pointB: Point) => {
+    // ...
+}
+
+drawPoint(
+    {
+        x: 1,
+        y: 2
+    });
