@@ -59,3 +59,13 @@ Angular4 - not really a major upgrade - is essentially 2.4
 Now just called Angular (no more numbering)
 
 Now have AngularJS vs Angular2+ or just "Angular"
+
+
+# JS versions
+ES5 (ECMAScript 5) - supported by all versions - default typescript compiled to 
+ES6 (2015)
+ES2016
+ES2017
+
+# Let
+Use the let keyword rather than var to catch compile time issues
