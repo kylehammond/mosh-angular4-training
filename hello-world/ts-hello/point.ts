@@ -10,13 +10,13 @@ export class Point {
         //...
     }
 
-    get x() {
-        return this._x;
-    }
+    // get x() {
+    //     return this._x;
+    // }
 
-    set x(value) {
-        if (value < 0)
-            throw new Error("Value cannot be less than 0.");
-        this._x = value;
-    }
+    // set x(value) {
+    //     if (value < 0)
+    //         throw new Error("Value cannot be less than 0.");
+    //     this._x = value;
+    // }
 }

@@ -1,5 +1,12 @@
 "use strict";
 exports.__esModule = true;
 var point_1 = require("./point");
+var post_1 = require("./post");
 var point = new point_1.Point(1, 2);
 point.draw();
+var post = new post_1.Post(148);
+post.LikeClicked();
+post.LikeClicked();
+post.LikeClicked();
+post.LikeClicked();
+post.LikeClicked();
