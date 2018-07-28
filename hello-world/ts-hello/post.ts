@@ -6,11 +6,8 @@ export class Post {
 
     LikeClicked() {
         this.likedByThisUser ? this.totalLikes-- : this.totalLikes++;
-        this.ToggleLike();
+        this.likedByThisUser = !this.likedByThisUser;
         console.log("Likes: " + this.totalLikes);
     }
-
-    ToggleLike(){
-        this.likedByThisUser = !this.likedByThisUser;
-    }
+    
 }

@@ -6,11 +6,8 @@ var Post = /** @class */ (function () {
     }
     Post.prototype.LikeClicked = function () {
         this.likedByThisUser ? this.totalLikes-- : this.totalLikes++;
-        this.ToggleLike();
-        console.log("Likes: " + this.totalLikes);
-    };
-    Post.prototype.ToggleLike = function () {
         this.likedByThisUser = !this.likedByThisUser;
+        console.log("Likes: " + this.totalLikes);
     };
     return Post;
 }());
